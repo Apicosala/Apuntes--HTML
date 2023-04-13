@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="Titulo">
+        <h1>Blog de Alex Picó</h1>
+        <!--id es para identificar un elemento (se llaman Atributos) y luego interactuar con este con JS o bien darle un estilo con CSS-->
+        <button class="boton">toca</button>
+    </header>
+    <div>
+        <p>Este es el blog de Alex Picó, aqui pondremos un parrafo indicando una introducción<br>
+        por ejemplo quien soy,<span style="color: blueviolet;">Hobbies, Aficiones, Deportes</span> </p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <section class="container">
+        <!--class lo utilizamos cuando un atributo se va a llamar igual en diferentes partes del código y queremos identificarlo para interactuar con CSS o JS-->
+        <article class="post">
+            <h2>Título de mi post 1</h2>
+            <p>Descripción de mi post 1</p>
+            <img src="img/cangrejo.jpeg" width="400" alt="Cangrejo">
+            <p>Contenido del post, es un texto de prueba</p>
+        </article>
+        <article class="post">
+            <h2>Título de mi post 2</h2>
+            <p>Descripción de mi post 2</p>
+            <img src="img/Alex.jpg" width="400" alt="Alex">
+            <p>Contenido del post, es un texto de prueba</p>
+        </article>
+        <article class="post">
+            <h2>Título de mi post 3</h2>
+            <p>Descripción de mi post 3</p>
+            <img src="img/monstruo.jpeg" width="400" alt="Monstruo">
+            <p>Contenido del post, es un texto de prueba</p>
+        </article>
+    </section>
+    <footer>
+        <section>
+        <a href="#Titulo">Comienzo página</a>
+        <!--al ser un id podemos enviar con un enlace donde se encuentre el id-->
+        <hr>
+        <a href="mailto:alejandro.picosala@icloud.com">Contacta conmigo aquí</a>
+        </section>
+        <p>Copyright 2023</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

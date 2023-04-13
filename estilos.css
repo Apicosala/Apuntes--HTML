@@ -1,0 +1,79 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body  {
+    background-color: #efefef;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 2rem 3rem;/* rem son medidas relativas dependiendo un rem=16px*/
+}
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+nav {
+    color: tomato;
+    font-size: 20px;;
+    margin: 0;
+    padding: 2rem 3rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+section article {
+    transition: all 0.3s ease;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3) ;/*sombra el primer cuanto desplaza a un lado, 2 desplaza hacia abajo, 3 difuminado, color*/
+}/*pone la sombra cuando te pones encima con el cursor, da sensación de movimiento*/
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    padding: 3rem;
+}
+
+footer section {
+    float: right;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: cornflowerblue;
+}
+
+footer p {
+    margin: 0;
+}

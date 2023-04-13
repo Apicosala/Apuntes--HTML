@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>manzanas</td>
+                <td>1.55</td>
+            </tr>
+            <tr>
+                <td>peras</td>
+                <td>1.25</td>
+            </tr>
+            <tr>
+                <td>uvas</td>
+                <td>1.75</td>
+            </tr>
+            <tr>
+                <td>melocotones</td>
+                <td>1.95</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td>Total: 6.50</td>
+                </tr>
+            </tfoot>
+
+    </table>
+    <!--ul es una lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+    <!--ol es una lista ordenada-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha ;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 4</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 5</li>
+            </ol>
+        </li>
+    </ol>
+    <form action="/formulario"  method="post">
+        <!-- action="/formulario" es la ruta donde se envia el formulario -->
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" placeholder="Apellido">
+        <label for="edad">Edad</label>
+        <input type="text" name="edad" placeholder="Edad">
+        <input type="checkbox" name="hombre" value="hombre">Hombre
+        <input type="checkbox" name="mujer" value="mujer">Mujer
+        <br>
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="telefono" placeholder="Telefono">
+        <input type="text" name="direccion" placeholder="Direccion">
+        <input type="text" name="ciudad" placeholder="Ciudad">
+        <input type="text" name="pais" placeholder="Pais">
+        <input type="text" name="codigoPostal" placeholder="Codigo Postal">
+        <br>
+        <label for="comentarios">Comentarios</label>
+        <input type="text" name="comentarios" placeholder="Comentarios">
+        <br>
+        <label for="comentarios">Comentarios</label>
+        <br>
+        <textarea name="comentarios" id="comentarios" cols="50" rows="10">si queremos añadir un valor por defecto</textarea>
+        <input type="submit" value="Enviar">
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+        
+    </form>
+    <h1>¡Hola mundo!</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>Esta es mi primera web</p>
+    <p>Esta es mi segunda línea, y escribo más texto para <span style="color: blue;">agregar un span</span> que <br> guardara
+        una etiqueta para el futuro, o reslatar algo en el texto.</p><!-- <br> me parte el la linea de texto y me la pone bajo -->
+    </p>
+    <p>Esta es mi tercera línea</p>
+    <hr>
+    <!-- Separación -->
+    <h2>Título intermedio</h2>
+    <p>Esta es mi cuarta línea</p>
+    <p>Esta es mi quinta línea</p>
+    <p>Esta es mi sexta línea</p>
+    <hr>
+    <h2>Título intermedio, hipervinculo</h2>
+    <a target="_blank" href="https://www.google.com">Google</a>
+    <hr>
+    <!-- target="_blank" abre la pagina en una nueva ventana -->
+    <!-- src="url de la imagen" -->
+    <img src="img/Alex.jpg" width="400" alt="Alex">
+    <!-- width="400" es el ancho de la imagen y tb convierte en alto en 400 -->
+</body>
+</html>
